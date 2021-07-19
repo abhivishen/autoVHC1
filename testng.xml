@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.4.dtd"> 
+<suite name="New_Test">
+<parameter name="browser" value="Chrome"/>
+	<test thread-count="2" name="Test">
+		
+		<classes>
+			<class name="com.autoVHC1.testCases.TC_Login_001"/>
+			<class name="com.autoVHC1.testCases.TC_CreateVHC_002"/>
+			
+		</classes>
+
+	</test>
+
+</suite>
